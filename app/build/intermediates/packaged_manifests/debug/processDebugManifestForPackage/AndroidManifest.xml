@@ -25,10 +25,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.TestingGithub" >
         <activity
-            android:name="com.example.testinggithub.MainActivity"
+            android:name="com.example.testinggithub.uiscreen.MainScreen"
+            android:exported="false"
+            android:label="@string/title_activity_main_screen"
+            android:theme="@style/Theme.TestingGithub" />
+        <activity
+            android:name="com.example.testinggithub.ui.theme.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.TestingGithub" >
