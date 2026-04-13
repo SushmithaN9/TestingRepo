@@ -8,5 +8,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">TestingGithub</string>
+    <string name="title_activity_main_screen">MainScreen</string>
     <style name="Theme.TestingGithub" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>
