@@ -19,9 +19,7 @@ class UserViewModel(private val repository: UserRepository) : ViewModel() {
         }
     }
 
-    fun login(email: String, password: String) {
-        viewModelScope.launch {
-            _loginResult.value = repository.login(email, password)
-        }
+    suspend fun login(email: String, password: String): User? {
+        return repository.login(email, password)
     }
 }
