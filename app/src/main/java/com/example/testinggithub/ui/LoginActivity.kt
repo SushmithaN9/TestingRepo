@@ -9,15 +9,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.setValue
 import androidx.lifecycle.lifecycleScope
-import com.example.testinggithub.data.AppDatabase
-import com.example.testinggithub.repo.UserRepository
 import com.example.testinggithub.ui.screens.LoginScreen
-import com.example.testinggithub.ui.theme.MenuActivity
-import com.example.testinggithub.ui.theme.RegisterActivity
 import com.example.testinggithub.util.SessionManager
 import com.example.testinggithub.viewmodel.UserViewModel
 import kotlinx.coroutines.Dispatchers

@@ -17,12 +17,12 @@
             android:label="@string/title_activity_register"
             android:theme="@style/Theme.TestingGithub" />
         <activity
-            android:name=".ui.theme.MenuActivity"
+            android:name=".ui.MenuActivity"
             android:exported="false"
             android:label="@string/title_activity_menu"
             android:theme="@style/Theme.TestingGithub" />
         <activity
-            android:name=".ui.theme.MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.TestingGithub">
