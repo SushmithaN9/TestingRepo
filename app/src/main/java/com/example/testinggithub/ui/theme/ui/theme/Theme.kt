@@ -1,4 +1,4 @@
-package com.example.testinggithub.ui.theme
+package com.example.testinggithub.ui.theme.ui.theme
 
 import android.app.Activity
 import android.os.Build

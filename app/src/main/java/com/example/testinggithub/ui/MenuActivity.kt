@@ -1,4 +1,4 @@
-package com.example.testinggithub.ui.theme
+package com.example.testinggithub.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,15 +11,16 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.testinggithub.ui.theme.ui.theme.TestingGithubTheme
 
-class MainActivity : ComponentActivity() {
+class MenuActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             TestingGithubTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
+                    Greeting2(
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
@@ -30,7 +31,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting2(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = modifier
@@ -39,8 +40,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun GreetingPreview2() {
     TestingGithubTheme {
-        Greeting("Android")
+        Greeting2("Android")
     }
 }
